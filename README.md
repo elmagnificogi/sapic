@@ -1,3 +1,6 @@
+# elmagnifico
+我基于sapic稍微改了一下，更符合傻瓜式的一键部署
+
 # sapic
 
 即picbed，基于Flask的Web自建图床，
