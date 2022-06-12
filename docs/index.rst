@@ -29,9 +29,9 @@ sapic - 简约不小气的自建图床程序
 基于Flask的Web自建图床，默认存储在本地，
 内置支持又拍云、七牛云、阿里云OSS、腾讯云COS、S3等对象存储，支持GitHub、Gitee（码云）。
 
-GitHub：[sapicd/sapic](https://github.com/sapicd/sapic)
+GitHub： `sapicd/sapic <https://github.com/sapicd/sapic>`_
 
-Gitee：[staugur/picbed](https://gitee.com/staugur/picbed)
+Gitee： `staugur/picbed <https://gitee.com/staugur/picbed>`_
 
 语言：Python
 
@@ -94,16 +94,16 @@ Gitee：[staugur/picbed](https://gitee.com/staugur/picbed)
 不足：
 -------
 
-- 图床管理暂时不能批量化
+- 图床管理暂时不能批量化；
 
-- 基于redis的数据存储，虽响应快，但数据存储方面可能有些风险
+- 基于redis的数据存储，虽响应快，但数据存储方面可能有些风险，请注意持久化及备份数据！
 
 .. _picbed-deploy:
 
 一句话部署：
 ------------
 
-1. 要求： Python2.7（3.6+）和Redis
+1. 要求： Python2.7（3.6+，推荐，PyPy、PyPy3）和Redis
 2. 下载： ``git clone https://github.com/sapicd/sapic && cd sapic``
 3. 依赖： ``pip install -r requirements/all.txt``
 4. 配置： ``config.py`` 即配置文件，可从 `.cfg` 文件或环境变量读取配置信息。
